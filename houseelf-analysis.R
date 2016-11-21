@@ -23,6 +23,20 @@ file.rename("data/houseelf-earlength-dna-data.csv","data/houseelf_earlength_dna_
 #3. Go back to the Github webpage for your repository and you should see your files.
 
 
+##6.
+
+
+
+library(stringr)
+
+ear_gc_content=function(sequence){
+  gs=str_count(sequence, "G")
+  cs=str_count(sequence, "C")
+  gc_content=(cs + gs) / str_length(sequence) * 100 
+  return(gc_content)
+}
+
+
 
 
 
