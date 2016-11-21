@@ -36,7 +36,8 @@ ear_gc_content=function(sequence){
   return(gc_content)
 }
 
-
-
-
-
+get_ear_length <- function(seq){
+    #Determine the ear length category
+    ear_lengths <- ifelse(seq > 10, "large", "small")
+    return(ear_lengths)
+}
