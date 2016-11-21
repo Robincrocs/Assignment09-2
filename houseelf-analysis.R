@@ -16,5 +16,13 @@ head(house_elves_ears)
 
 file.rename("data/houseelf-earlength-dna-data.csv","data/houseelf_earlength_dna_data_1.csv")
 
+##5. -- Adding a Remote --
+
+#1.Create an account on Github. 
+#2.Connect your local git repository to your remote repository on Github. 
+#3. Go back to the Github webpage for your repository and you should see your files.
+
+
+
 
 
