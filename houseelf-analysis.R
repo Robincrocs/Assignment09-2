@@ -11,3 +11,5 @@
 
 house_elves_ears =read.csv("data/houseelf-earlength-dna-data.csv", header=T)
 head(house_elves_ears)
+
+
