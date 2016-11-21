@@ -23,9 +23,7 @@ file.rename("data/houseelf-earlength-dna-data.csv","data/houseelf_earlength_dna_
 #3. Go back to the Github webpage for your repository and you should see your files.
 
 
-##6.
-
-
+##6.-- Pushing Changes --
 
 library(stringr)
 
@@ -41,3 +39,5 @@ get_ear_length <- function(seq){
     ear_lengths <- ifelse(seq > 10, "large", "small")
     return(ear_lengths)
 }
+
+## 7. -- Pulling and Pushing --
